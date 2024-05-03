@@ -1,0 +1,133 @@
+body{
+	background-color: #8B0000;
+	font-family: Century Gothic;
+	color: orange;
+	font-size: 20px;
+	margin: 0;
+	padding: 0;
+}
+.web{
+	width: 1500px;
+	margin: 0 auto;
+	padding: 20px;
+}
+.logo{
+	margin-left: 60px;
+}
+.round-image{
+	border-radius: 50%;
+}
+.nav ul{
+	margin: 0;
+	padding: 20px;
+}
+.nav ul li{
+	list-style-type: none;
+	display: inline-block;
+	margin: 20px;
+}
+.nav ul li a{
+	text-decoration: none;
+	color: orange;
+	text-transform: uppercase;
+	font-weight: bolder;
+	padding: 1 0px;
+	margin-left: 10px;
+}
+.banner{
+	width: 95%;
+	height: 500px;
+}
+h1{
+	margin: 50px 50px 20px 0px;
+	padding: 0px;
+}
+h2{
+	font-size: 25px;
+}
+.left-side-bar{
+	width: 190px;
+	float: left;
+	border: 1px solid yellowgreen;
+	min-height: 50px;
+	margin: 10px 10px 10px 0px;
+}
+.left-side-bar h2{
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	text-transform: uppercase;
+	color: orange;
+}
+.left-side-bar ul{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+.left-side-bar ul li{
+	margin: 0px;
+	text-align: center;
+	border-bottom: 1px solid gold;
+}
+.left-side-bar ul li a{
+	display: block;
+	width: 100%;
+	text-decoration: none;
+	color: gold;
+	font-weight: bold;
+	background-color: #D11111;
+	padding: 5px 0px;
+}
+.left-side-bar ul li a:hover{
+	color: green;
+}
+.content{
+	width: 550px;
+	float: left;
+	margin: 10px;
+}
+.menu {
+	padding: 30px;
+    text-align: center;
+    border-bottom: 1px solid gold;
+}
+
+.menu ul {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+.menu ul li {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.menu ul li img {
+	border-radius: 20%;
+    width: 300px;
+    height: 300px;
+    transition: transform 0.3s ease-in-out;
+}
+.menu ul li img:hover{
+	transform: scale(1.2);
+}
+.footer{
+	float: left;
+	clear: both;
+	border-top: 1px solid gold;
+	padding: 10px;
+	text-align: center;
+}
+.information{
+	font-weight: bold;
+	float: left;
+	text-align: justify;
+	margin: 10px;
+	width: 900px;
+}
+.information a{
+	color: #6d62e3;
+}
